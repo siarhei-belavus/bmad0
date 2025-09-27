@@ -32,11 +32,7 @@ This skeleton includes Cursor-specific slash commands in `.cursor/commands/bmad/
 ## Quick Start
 
 1. **Clone or fork this repository** for your new project
-2. **Install dependencies** (if using Node.js features):
-   ```bash
-   npm install
-   ```
-3. **Start using agents** in Cursor IDE:
+2. **Start using agents** in Cursor IDE:
    ```
    /bmad/architect    # For system design
    /bmad/dev         # For development
