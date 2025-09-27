@@ -14,8 +14,10 @@ This repository provides a ready-to-use project skeleton that includes:
 
 ## Key Additions
 
-### Cursor Slash Commands
-This skeleton includes Cursor-specific slash commands in `.cursor/commands/bmad/` that enable:
+### Enhanced IDE Integration
+This skeleton includes integrations for multiple AI development platforms:
+
+**Cursor IDE** - Slash commands in `.cursor/commands/bmad/`:
 - `/bmad/architect` - System architecture and design
 - `/bmad/dev` - Full-stack development
 - `/bmad/pm` - Product management
@@ -23,21 +25,32 @@ This skeleton includes Cursor-specific slash commands in `.cursor/commands/bmad/
 - `/bmad/qa` - Quality assurance and testing
 - And more specialized agents...
 
+**Also supports:**
+- **Claude Code** - Agent commands in `.claude/commands/BMad/`
+- **Codex CLI** - Direct agent access via command line
+- **Gemini** - Agent configurations in `.gemini/commands/BMad/`
+- **GitHub Copilot** - Chat modes in `.github/chatmodes/`
+
 ### What's Different from Official BMAD-METHOD?
-- ✅ **Added Cursor slash commands** - Missing from the original repository
-- ✅ **Enhanced IDE integration** - Better development experience
-- ✅ **Ready-to-use structure** - No additional setup required
-- ✅ **Multi-platform support** - Works across different AI development environments
+- ✅ **Added multi-platform IDE integration** - Cursor, Claude Code, Codex, Gemini, GitHub Copilot
+- ✅ **Enhanced development experience** - Ready-to-use commands and configurations
+- ✅ **No additional setup required** - Works out of the box
+- ✅ **Comprehensive platform support** - Works across different AI development environments
 
 ## Quick Start
 
 1. **Clone or fork this repository** for your new project
-2. **Start using agents** in Cursor IDE:
+2. **Start using agents** in your preferred AI development environment:
+   
+   **Cursor IDE:**
    ```
    /bmad/architect    # For system design
    /bmad/dev         # For development
    /bmad/pm          # For product management
    ```
+   
+   **Claude Code, Codex CLI, Gemini, GitHub Copilot:**
+   Use the corresponding agent files in their respective directories
 
 ## About BMAD-METHOD™
 
