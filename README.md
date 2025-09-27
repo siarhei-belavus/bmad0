@@ -25,7 +25,7 @@ This skeleton includes integrations for multiple AI development platforms:
 - `/bmad/qa` - Quality assurance and testing
 - And more specialized agents...
 
-**Also supports:**
+**Also supports (from original framework):**
 - **Claude Code** - Agent commands in `.claude/commands/BMad/`
 - **Codex CLI/Web** - Direct agent access via command line via AGENTS.md
 - **Gemini** - Agent configurations in `.gemini/commands/BMad/`
