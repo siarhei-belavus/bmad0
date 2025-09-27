@@ -31,12 +31,6 @@ This skeleton includes integrations for multiple AI development platforms:
 - **Gemini** - Agent configurations in `.gemini/commands/BMad/`
 - **GitHub Copilot** - Chat modes in `.github/chatmodes/`
 
-### What's Different from Official BMAD-METHOD?
-- ✅ **Added multi-platform IDE integration** - Cursor, Claude Code, Codex, Gemini, GitHub Copilot
-- ✅ **Enhanced development experience** - Ready-to-use commands and configurations
-- ✅ **No additional setup required** - Works out of the box
-- ✅ **Comprehensive platform support** - Works across different AI development environments
-
 ## Quick Start
 
 1. **Clone or fork this repository** for your new project
