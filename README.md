@@ -27,7 +27,7 @@ This skeleton includes integrations for multiple AI development platforms:
 
 **Also supports:**
 - **Claude Code** - Agent commands in `.claude/commands/BMad/`
-- **Codex CLI** - Direct agent access via command line
+- **Codex CLI/Web** - Direct agent access via command line via AGENTS.md
 - **Gemini** - Agent configurations in `.gemini/commands/BMad/`
 - **GitHub Copilot** - Chat modes in `.github/chatmodes/`
 
